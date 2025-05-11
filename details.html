@@ -1,1 +1,56 @@
-<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><title>Détail Processus</title><link rel='stylesheet' href='../css/bootstrap.min.css'><link rel='stylesheet' href='../css/style.css'></head><body class='bg-light'><div class='container mt-4'><h2>Détail d’un processus</h2><p>Contenu à venir...</p><a href='../index.html' class='btn btn-secondary'>Retour</a></div><script src='../js/bootstrap.bundle.min.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Description Processus</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-4">
+    <h2>Description du processus</h2>
+
+    <div class="mb-3">
+      <label class="form-label">Titre Processus</label>
+      <input type="text" class="form-control" value="Checklist X" disabled>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Collaborateurs</label>
+      <input type="text" class="form-control" value="Collaborateur 1, Collaborateur 2" disabled>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Délai du processus</label>
+      <input type="date" class="form-control">
+    </div>
+
+    <h5 class="mt-4">Tâches</h5>
+    <ul class="list-group mb-3">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Tâche 1
+        <input type="date" class="form-control w-auto">
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Tâche 2
+        <input type="date" class="form-control w-auto">
+      </li>
+    </ul>
+
+    <label class="form-label">Progression</label>
+    <div class="progress mb-3">
+      <div class="progress-bar" role="progressbar" style="width: 50%;">50%</div>
+    </div>
+
+    <h5>Tâches complétées</h5>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">Tâche 1</li>
+    </ul>
+
+    <a href="../index.html" class="btn btn-secondary">Retour</a>
+  </div>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
